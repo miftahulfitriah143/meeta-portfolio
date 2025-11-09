@@ -22,10 +22,18 @@ export default function AboutSection({ education, skills, languageData }: AboutS
         </h2>
         <div className="text-gray-300 space-y-4 text-lg">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            I’m a passionate and adaptable individual with a
+background in Informatics and hands-on experience in
+both tech and hospitality. Currently pursuing a Bachelor’s
+degree in Computer Science, I’ve been involved in
+various roles including frontend and backend
+development, UI/UX design, and volunteer work in
+communication and media. My experience in the
+hospitality industry has also shaped my ability to work
+well with people, stay detail-oriented, and adapt quickly
+in dynamic environments. I enjoy learning new things
+and thrive in collaborative settings where I can
+contribute and grow.
           </p>
         </div>
         
