@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Navbar */}
-      <Navbar activeLink="Contact" /> 
+      <Navbar/> 
 
       <main className="container mx-auto px-4 py-20 md:px-8">
         
