@@ -8,7 +8,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Navbar di atas halaman */}
-      <Navbar activeLink="About" /> 
+      <Navbar/> 
 
       <main className="container mx-auto px-4 py-20 md:px-8">
         <AboutSection 
