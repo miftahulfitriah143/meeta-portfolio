@@ -23,17 +23,17 @@ export default function AboutSection({ education, skills, languageData }: AboutS
         <div className="text-gray-300 space-y-4 text-lg">
           <p>
             I’m a passionate and adaptable individual with a
-background in Informatics and hands-on experience in
-both tech and hospitality. Currently pursuing a Bachelor’s
-degree in Computer Science, I’ve been involved in
-various roles including frontend and backend
-development, UI/UX design, and volunteer work in
-communication and media. My experience in the
-hospitality industry has also shaped my ability to work
-well with people, stay detail-oriented, and adapt quickly
-in dynamic environments. I enjoy learning new things
-and thrive in collaborative settings where I can
-contribute and grow.
+            background in Informatics and hands-on experience in
+            both tech and hospitality. Currently pursuing a Bachelor’s
+            degree in Computer Science, I’ve been involved in
+            various roles including frontend and backend
+            development, UI/UX design, and volunteer work in
+            communication and media. My experience in the
+            hospitality industry has also shaped my ability to work
+            well with people, stay detail-oriented, and adapt quickly
+            in dynamic environments. I enjoy learning new things
+            and thrive in collaborative settings where I can
+            contribute and grow.
           </p>
         </div>
         

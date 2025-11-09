@@ -1,6 +1,8 @@
 // components/ContactSection.tsx
 import Image from 'next/image';
 import Link from 'next/link';
+import React from 'react';
+import { FaEnvelope, FaPhone, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function ContactSection() {
   return (
@@ -37,44 +39,53 @@ export default function ContactSection() {
         </p>
 
         {/* Informasi Kontak */}
-        <div className="space-y-3">
-          <ContactLink 
-            icon="&#9993;" // Ikon Email
-            text="miftahulfitriah143@gmail.com" 
-            href="mailto:miftahulfitriah143@gmail.com"
-          />
-          <ContactLink 
-            icon="&#9742;" // Ikon Telepon
-            text="+62 895346050403" 
-            href="https://wa.me/62895346050403"
-          />
-          <ContactLink 
-            icon="&#xe800;" // Placeholder untuk LinkedIn (Ganti dengan ikon font/SVG)
-            text="miftahulfitriah143" 
-            href="https://linkedin.com/in/miftahulfitriah143"
-          />
-          <ContactLink 
-            icon="&#x1F4F7;" // Ikon Instagram
-            text="@miftahulfitriah_" 
-            href="https://instagram.com/miftahulfitriah_"
-          />
-        </div>
+<div className="space-y-3">
+  <ContactLink 
+    icon={<FaEnvelope />} 
+    text="miftahulfitriah143@gmail.com" 
+    href="mailto:miftahulfitriah143@gmail.com"
+  />
+
+  <ContactLink 
+    icon={<FaPhone />} 
+    text="+62 895346050403" 
+    href="https://wa.me/62895346050403"
+  />
+
+  <ContactLink 
+    icon={<FaLinkedin />} 
+    text="miftahulfitriah143" 
+    href="https://linkedin.com/in/miftahulfitriah143"
+  />
+
+  <ContactLink 
+    icon={<FaInstagram />} 
+    text="@miftahulfitriah_" 
+    href="https://instagram.com/miftahulfitriah_"
+  />
+</div>
+
       </div>
     </section>
   );
 }
 
 interface ContactLinkProps {
-    icon: string;
+    icon: React.ReactNode;
     text: string;
     href: string;
 }
 
 function ContactLink({ icon, text, href }: ContactLinkProps) {
-    return (
-        <Link href={href} target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-300 hover:text-green-400 transition-colors">
-            <span className="text-xl text-green-400 w-8">{icon}</span>
-            <span className="text-base">{text}</span>
-        </Link>
-    );
+  return (
+    <a 
+      href={href} 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="flex items-center space-x-3 text-brand-light-gray hover:text-green-400 transition-colors"
+    >
+      <span className="text-xl">{icon}</span>
+      <span>{text}</span>
+    </a>
+  );
 }
