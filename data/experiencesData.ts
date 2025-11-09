@@ -13,36 +13,36 @@ export interface ExperienceItem {
 export const ExperiencesData: ExperienceItem[] = [
   {
     id: 1,
-    period: 'Sep 2025 - Nov 2025',
-    title: 'Experience 1',
-    company: "Company's Name",
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    period: 'Sep 2025 - Jan 2026',
+    title: 'Teacher Assistant',
+    company: "Paramadina Uniersity",
+    description: 'Served as a Lecturer Assistant for Algorithms and Structured Programming, delivering theoretical and practical instruction to over 49 students and evaluating their learning outcomes weekly throughout the semester.',
     detailsUrl: '#',
     isEven: false, // Kartu Ganjil (Kiri)
   },
   {
     id: 2,
-    period: 'Sep 2025 - Nov 2025',
-    title: 'Experience 2',
-    company: "Company's Name",
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.',
+    period: 'Sep 2025 - Jan 2025',
+    title: 'Teacher Assistant',
+    company: "Paramadina Uniersity",
+    description: 'Served as a Lecturer Assistant for Algorithms and Structured Programming, delivering theoretical and practical instruction to over 49 students and evaluating their learning outcomes weekly throughout the semester.',
     detailsUrl: '#',
-    isEven: true, // Kartu Genap (Kanan)
+    isEven: true, 
   },
   {
     id: 3,
-    period: 'Sep 2024 - Mar 2025',
-    title: 'Experience 3 (Internship)',
-    company: "Company's Name",
+    period: 'Oct 2025 - Des 2025',
+    title: 'Internship as WordPress Administrator',
+    company: "Paramadina University",
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.',
     detailsUrl: '#',
     isEven: false, // Kartu Ganjil (Kiri)
   },
   {
     id: 4,
-    period: 'Jan 2024 - Jun 2024',
-    title: 'Experience 4 (Volunteering)',
-    company: "Organization Name",
+    period: 'Sep 2024 - Jan 2025',
+    title: 'Teacher Assistant',
+    company: "Paramadina University",
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.',
     detailsUrl: '#',
     isEven: true, // Kartu Genap (Kanan)
