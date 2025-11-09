@@ -2,7 +2,7 @@ import Navbar from '@/components/Navbar';
 import AboutSection from '@/components/AboutSection';
 import AchievementCard from '@/components/AchievementCard';
 import Timeline from '@/components/Timeline';
-import { AchievementData, EducationData, SkillData } from '@/data/data'; // Kita akan buat file data ini
+import { AchievementData, EducationData, LanguageData, SkillData } from '@/data/data'; // Kita akan buat file data ini
 
 export default function AboutPage() {
   return (
@@ -14,6 +14,7 @@ export default function AboutPage() {
         <AboutSection 
           education={EducationData} 
           skills={SkillData} 
+          languageData={LanguageData}
         />
         
         <section className="mt-20">
